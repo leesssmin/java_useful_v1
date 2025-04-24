@@ -35,7 +35,7 @@ public class Book {
             }
         } else {
             return false;
-        }0.
+        }
     }
 
     // equals() 메서드를 재정할 때는 hashCode() 메서드 재정의 해주어야
