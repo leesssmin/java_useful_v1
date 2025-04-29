@@ -13,7 +13,6 @@ public class Worker extends Thread{
     public void run() {
         for(int i = 0; i < 50; i++){
             System.out.println("worker" + name + " : " + i);
-
             try {
                 Thread.sleep(2000);
             }catch (InterruptedException e1){
